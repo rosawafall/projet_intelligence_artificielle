@@ -1,7 +1,10 @@
-from groq import Groq
+import os
 import requests
+from groq import Groq
+from dotenv import load_dotenv
 
-client = Groq(api_key="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")
+load_dotenv()
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 def get_weather(city: str) -> str:
     r = requests.get(f"https://wttr.in/{city}?format=3")
