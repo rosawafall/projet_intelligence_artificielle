@@ -1,0 +1,6 @@
+path: ./data/conduite_nuit
+train: images/train
+val: images/val
+
+nc: 6
+names: ['pedestrian', 'car', 'truck', 'bus', 'traffic sign', 'traffic light']
