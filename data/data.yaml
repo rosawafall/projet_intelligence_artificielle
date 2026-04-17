@@ -1,0 +1,15 @@
+path: ./data/conduite_nuit   # chemin absolu ou relatif à la racine du projet
+train: images/train
+val:   images/val
+
+# Nombre de classes
+nc: 6
+
+# Noms des classes (ordre = index YOLO)
+names:
+  - pedestrian      # 0 — piéton
+  - car             # 1 — voiture
+  - truck           # 2 — camion
+  - bus             # 3 — bus
+  - traffic sign    # 4 — panneau de signalisation
+  - traffic light   # 5 — feu de signalisation
