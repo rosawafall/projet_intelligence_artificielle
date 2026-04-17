@@ -1,8 +1,25 @@
-ultralytics>=8.0
-langchain>=0.2
-streamlit>=1.35
-groq>=0.9
-python-dotenv
-roboflow
-opencv-python
-pillow
+# - Vision par ordinateur -
+ultralytics>=8.0          # YOLOv8 
+opencv-python>=4.8        # traitement image
+pillow>=10.0              # manipulation images PIL
+
+# - LLM & Agent -
+groq>=0.9                 # client Groq API
+langchain>=0.2            # framework agent
+
+# - Interface -
+streamlit>=1.35           # interface web interactive
+
+# - Données & utilitaires -
+python-dotenv             # chargement des variables d'environnement (.env)
+requests>=2.31            # appels API REST
+numpy>=1.24               # calcul numérique
+
+# - Notebook & visualisation -
+matplotlib>=3.7           # graphiques et visualisations
+seaborn>=0.13             # visualisations statistiques
+pandas>=2.0               # manipulation de données
+jupyterlab>=4.0           # notebooks Jupyter
+
+# - Dataset -
+# roboflow                # annotation et export datasets
