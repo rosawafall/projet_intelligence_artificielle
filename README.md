@@ -1,4 +1,4 @@
-#  Analyseur Intelligent de Scènes de Conduite — Conduite de Nuit
+#  Analyseur Intelligent de Scènes de Conduite - Conduite de Nuit
 
 **Projet de Fin de Module · Intelligence Artificielle · 2025–2026**
 **Membres du groupe :** FALL Awa, Faye Rokhaya Ndambao et Anouar Zegguir.
